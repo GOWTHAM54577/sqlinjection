@@ -23,27 +23,33 @@ Open terminal and try execute some kali linux commands
 SQL Injection is a sort of infusion assault that makes it conceivable to execute malicious SQL statements. These statements control a database server behind a web application. Assailants can utilize SQL Injection vulnerabilities to sidestep application safety efforts. They can circumvent authentication and authorization of a page or web application and recover the content of the whole SQL database. 
 Identify IP address using ifconfig in Metasploitable2
 ## OUTPUT:
-![{3AB1C5A4-ADE3-4836-91D5-A913DD9B13E2}](https://github.com/user-attachments/assets/7a5b1b0b-c196-4458-a2bd-dba8737a788b)
+![image](https://github.com/user-attachments/assets/dbc4ccb5-0390-4213-842f-000f34b81446)
+
 
 Use the above ip address to access the apache webserver of Metasploitable2 from kali linux. In Kali Linux use the ip address in a web browser.
 ## OUTPUT:
-![{6DF43AD1-042F-4FCA-B280-466BB0D123F3}](https://github.com/user-attachments/assets/3bd676f0-7426-4266-98dd-17d91bd03973)
+![image](https://github.com/user-attachments/assets/5127eae7-18f2-4be5-84c9-589e466ac274)
+
 
 Select Multidae from the menu listed as shown above. You will get the page as displayed below:
 ## OUTPUT:
-![{1C6A9657-6BAD-46C9-ACC9-D77BB762ED2F}](https://github.com/user-attachments/assets/86ac19e9-8e08-40e2-ad0e-c9f43b74d84c)
+![image](https://github.com/user-attachments/assets/3dcda901-1cc3-45e6-9992-687e0251e870)
+
 
 Click on the menu Login/Register and register for an account
 ## OUTPUT:
-![{997A41FF-1A29-4F62-891A-B5486B046805}](https://github.com/user-attachments/assets/8d87f019-1934-41ab-8693-d7d5bcc75363)
+![image](https://github.com/user-attachments/assets/0171ed31-4639-4b1a-9f3c-247631112ba4)
 
 Click on the link “Please register here”
 ## OUTPUT:
-![{85EC86D0-8B56-4F55-8AE6-F7083C38854F}](https://github.com/user-attachments/assets/f2f327ce-e022-41ce-81d5-8067b69264be)
+![image](https://github.com/user-attachments/assets/32eef75f-e273-4f94-90b0-4c5a80ef2ceb)
+
+
 
 Click on “Create Account” to display the following page:
 ## OUTPUT:
-![{50550528-CE6F-4604-979F-48802DFDFD39}](https://github.com/user-attachments/assets/75d867c0-4090-4338-80d4-ee308012b1c2)
+
+
 
 
 The login structure we will use in our examples is straightforward. It contains two input fields (username and password), which are both vulnerable. The back-end content creates a query to approve the username and secret key given by the client. Here is an outline of the page rationale:
